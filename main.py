@@ -35,7 +35,7 @@ def Listen_Command():
 
 def News():
     url = 'https://newsapi.org/v2/top-headlines'
-    newsapi = '58a98da798984986ba49beb1229ece08'
+    newsapi = 'Your API-KEY'
     parameters = {
         'country': 'us',   # You can change the country code as needed
         'category': 'business',  # Category of news (e.g., general, technology, business)
