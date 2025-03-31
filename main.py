@@ -1,10 +1,8 @@
 import speech_recognition as sr
 import webbrowser
-import pyaudio
 import pyttsx3
 import requests
 import Dict_Library
-import pyautogui
 
 engine = pyttsx3.init()
 recogniser = sr.Recognizer()
